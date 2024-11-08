@@ -27,7 +27,7 @@ RUN apt-get update \
  && rm -rf /tmp/* /var/lib/apt/list/*
 
 # app setup
-COPY --from=crazymax/yasu:1.17.0 / /
+COPY --from=crazymax/yasu:1.20.1 / /
 COPY rootfs /
 RUN chmod +x \
     /usr/local/sbin/entrypoint.sh \
