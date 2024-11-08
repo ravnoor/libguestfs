@@ -43,7 +43,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=edge
           labels: |
-            org.opencontainers.image.vendor=BKAHLERT
+            org.opencontainers.image.vendor=ravnoor
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
